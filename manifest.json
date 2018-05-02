@@ -1,0 +1,23 @@
+{
+  "name": "Jump to homepage",
+  "version": "1.0",
+  "description": "Jump to homepage.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "commands": {
+    "jump-homepage": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H"
+      },
+      "description": "Jump Homepage"
+    }
+  },
+  "manifest_version": 2
+}
